@@ -1,0 +1,18 @@
+\usepackage{fancyhdr}
+\usepackage{totpages}
+\usepackage{sectsty}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot[C]{\thepage/\pageref{TotPages}}
+
+% — remove decorative rules —
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% — keep header box tiny (no real header) —
+\setlength{\headheight}{12pt}   % just enough to keep TeX happy
+
+% — centre # Headings —
+\sectionfont{\centering}
+

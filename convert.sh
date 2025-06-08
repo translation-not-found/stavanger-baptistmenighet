@@ -1,7 +1,7 @@
 pandoc ru.md -o ru.pdf \
   --pdf-engine=xelatex \
   -f markdown+superscript \
-  -V mainfont="Georgia" \
+  -V mainfont="Charter" \
   -V fontsize=11pt \
   -V lang=ru \
   -V otherlang=uk \
@@ -12,7 +12,7 @@ pandoc ru.md -o ru.pdf \
 pandoc ua.md -o ua.pdf \
   --pdf-engine=xelatex \
   -f markdown+superscript \
-  -V mainfont="Georgia" \
+  -V mainfont="Charter" \
   -V fontsize=11pt \
   -V lang=ua \
   -V otherlang=uk \

@@ -19,5 +19,5 @@ ru.pdf: ru.md
 
 ua.pdf: ua.md
 	$(PANDOC) ua.md -o ua.pdf \
-		--include-before-body=inscription.ru.tex \
+		--include-before-body=inscription.ua.tex \
 		$(FLAGS)
